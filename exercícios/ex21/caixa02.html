@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(115, 116, 116);
+        }
+
+        header {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article { 
+            display: inline-block;
+            background-color: rgb(179, 192, 192);
+            box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.493);
+            border-radius: 10px;
+
+        }
+
+        #assuntos {
+            display: inline-block;
+            margin: 10px;
+            width: 300px;
+        }
+
+        #noticias {
+            display: inline-block;
+            margin-left: 320px;
+            margin-top: 0px;
+        }
+
+        article > aside {
+            background-color: rgb(109, 110, 110);
+        }
+        
+        nav {
+            background-color: rgb(50, 51, 51);
+            padding: 2px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.233);
+        }
+
+        nav > a {
+            font-weight: bold;
+            color: aliceblue;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </nav>
+        </header>
+        <main>
+            <section id="assuntos">
+                 <article>
+                    <h2>Notícias atuais</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nam quae, minima ipsam, doloribus facilis alias ullam mollitia deserunt consectetur, magni eveniet voluptatum vitae cupiditate quia consequatur assumenda sunt quo!</p>
+                 </article>
+            </section>
+            <section id="noticias">
+                <article>
+                    <h2>Notícia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores ipsa, odio dolor laudantium magni modi nisi tempore id sapiente repellendus, est unde. Est, minus incidunt? Adipisci voluptatum sit ex?</p>
+                    <aside>Escrito por Toletóide</aside>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvido por João Victor</p>
+        </footer>
+</body>
+</html>
