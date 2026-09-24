@@ -1,9 +1,19 @@
 @charset "UTF-8";
 * {
-    margin: 0px;
+
 }
 header {
     background-color: black;
     height: 100px;
     color: white;
+    margin: 0px;
+}
+header p {
+}
+div.container {
+    position: relative;
+}
+div.conteudo {
+    position: absolute;
+    margin: auto;
 }
