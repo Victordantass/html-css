@@ -37,7 +37,13 @@ nav {
 }
 
 nav > a {
-    padding: 15px;
+    padding: 7px;
     color: white;
     text-decoration: none;
+}
+nav > a:hover {
+    color: var(--cor00);
+    text-decoration: underline;
+    background-color: var(--cor03);
+    border-radius: 5px;
 }
