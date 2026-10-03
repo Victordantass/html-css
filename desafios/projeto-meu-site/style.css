@@ -1,0 +1,43 @@
+@charset "UTF-8";
+:root {
+    --cor00: #17ADED;
+    --cor01: #2076BA;
+    --cor02: #184187;
+    --cor03: #0F1954;
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+
+}
+* {
+    margin: 0px;
+
+}
+nav {
+    background-color: var(--cor02);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor00), var(--cor02));
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    color: white;
+}
+header > h1 {
+    padding: 10px;
+    padding-top: 30px;
+}
+
+header > p {
+    padding: 10px;
+    padding-bottom: 20px;;
+}
+nav {
+    font-family: var(--fonte-padrao);
+    padding: 7px;
+    text-align: left;
+}
+
+nav > a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
